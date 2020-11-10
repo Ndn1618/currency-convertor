@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
   <section class="py-5">
@@ -18,11 +20,13 @@
         <div class="d-flex mb-4">
           <div class="form-group mr-5">
             <label class="sr-only" for="amount-input">Money amount</label>
-            <input class="amount-input form-control" id="amount-input" name="amount" type="number" placeholder="Summa" min="0" step="any" autocomplete="off" required>
+            <input class="amount-input form-control" id="amount-input" name="amount" type="number" placeholder="Summa"
+              min="0" step="any" autocomplete="off" required>
           </div>
           <div class="form-group mr-5 flex-grow-1">
             <label class="sr-only" for="currency-select">Currencies</label>
             <select class="currency-select form-control" name="currency" id="currency-select" required>
+              <option value="" disabled selected>Pul birliklari:</option>
               <option value="10359.88">USD</option>
               <option value="136.11">RUB</option>
               <option value="12285.78">EUR</option>
@@ -45,4 +49,5 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
+
 </html>
